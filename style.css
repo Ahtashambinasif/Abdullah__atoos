@@ -1,0 +1,696 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url('Images/back.png'); 
+    overflow-x: hidden;
+    
+    background-repeat: none;
+    width: 100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+   
+}
+
+.nav{
+  
+    padding:20px ;
+    width:auto;
+    height: 8vh;
+    display: flex;
+    
+    align-items: center;
+  
+}
+
+#logo {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-width: 190px;
+    display: inline;
+    margin-left: 86px;
+   
+}
+#footer-logo {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-width: 190px;
+    display: inline;
+    margin-left: 86px;
+    margin-top: 5rem;
+   
+}
+.foot{
+    
+  
+    position: relative;
+    bottom: 45px;
+    left: 310px;
+  
+}
+.dark-color{
+    color: rgb(75, 85, 99);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.dark-color:hover{
+cursor: pointer;
+}
+
+.size{
+    font-size: 16px;
+    color:rgb(75, 85, 99);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#list {
+    list-style: none;
+
+    height: 24px;
+    /* margin-left:637px; */
+}
+
+#list a {
+
+    margin-right: 1.25em;
+    font-size: 16px;
+   color:rgb(75, 85, 99);
+   text-decoration: none;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+   line-height: 1.5rem;
+
+}
+#list a:hover {
+    border-bottom: 2px solid #e5444c;
+    
+    cursor: pointer;
+    color:black;
+  
+    
+
+}
+.big{
+    color: #e5444c;;
+    font-size: 70px;
+    margin-left: 110px;
+    font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
+}
+.list{
+    width: 970px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:6rem 0rem;
+   margin: 0px 90px;
+ 
+
+}
+.boxes{
+    width: 318px;
+    height:348px;
+    border: 3px solid red;
+    background-color: #615fda00;
+ 
+}
+
+
+.img{
+    width:211px;
+    height:192px;
+    margin: 5px 70px;
+}
+
+.item{
+    width: 318px;
+    height:348px;
+}
+.details{
+    margin:5px 70px;
+
+ 
+}
+.heading{
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    display: block;
+  
+    font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text{
+    color: rgb(107, 114, 128);
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text-cate{
+    color: rgb(107, 114, 128);
+   
+    font-size: 16px;
+    display: block;
+    margin-top:8px;
+    
+    font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text-cate1{
+    color: rgb(107, 114, 128);
+   
+    font-size: 16px;
+    display: block;
+    margin-top:8px;
+    line-height: 1.625;
+    font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.cate-red{
+    color: #e5444c;
+   
+   
+    font-size: 16px;
+    display: block;
+    margin-top:8px;
+    
+    font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.cate-red1{
+    color: #e5444c;
+   
+   
+    font-size: larger;
+    display: block;
+    margin-top:75px;
+    margin-bottom: 4px;;
+    
+    font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.cate-head{
+    margin-top:10px;
+}
+.btn{
+    width:107px;
+    height: 32px;    
+    background-color: #e5444c;
+    border: 0px;
+    border-radius: 4px ;
+    margin: 10px 0px;
+    display: block;
+    color: black;
+}
+.btn:hover{
+    background-color: #d86971;
+    cursor: pointer;
+}
+#svg-arrow{
+    width:1.2em;
+    margin: -3px 0px;
+}
+.svg{
+    width:1.2em;
+    color: rgb(107, 114, 128);
+    cursor: pointer;
+    padding: 5px;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: auto;
+    padding-top: 5rem;
+    
+}
+   
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: auto;
+    padding-top: 5rem;
+    width: 800px;
+    height: 10px;
+    
+   
+   
+}
+.links{
+    position:relative;
+    width: 150px;
+    left: 890px;
+    bottom: 20px;
+
+}
+
+.cont-items{
+    width: 318px;
+    height: 348px;
+    /* border: 2px solid black; */
+}
+.cont-items8{
+    float: right;
+    width: 318px;
+    height: 348px;
+    /* border: 2px solid black; */
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#address{
+margin-left: 110px;
+margin-top:50px;
+border-radius: 10px;
+
+
+}
+#address:hover{
+    cursor: pointer;
+}
+.form{
+    width: 372px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 562px;
+    
+   
+}
+.form input{
+    border: 1px solid rgb(171, 178, 192);
+    width:372px;
+    height: 42px;
+    border-radius: 2px solid rgb(171, 178, 192);
+}
+.form input:focus{
+    
+    outline: 2px solid #e5444c; 
+    border: none;
+    
+    /* box-shadow: 0 0 0 2px red; */
+}
+#message{
+    margin-bottom: 16px;
+}
+#submit{
+    font-size: 16px;
+    width: 372px;
+    height: 42px;
+    background-color:#e5444c;
+    border:  none;
+     border-radius: 0.25rem;;
+}
+#submit:hover{
+    cursor:pointer;
+    background-color: #d86971;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+  
+/*   
+    padding-left: 1.25rem; */
+    padding-right: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.categori{
+    width: 400px;
+    height: 510px;
+    padding:16px;
+    
+    
+  
+}
+.categori:hover{
+    cursor: pointer;
+    
+  
+}
+#message{
+    width: 372px;
+    height:128px;
+}
+
+.motorcycle{
+    margin-left: 42px;
+}
+
+.images{
+    width: 362px;
+    height: 256px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    margin: 50px;
+
+}
+#order-summary8{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    letter-spacing: normal;
+    
+  }
+  #details8{
+    margin-top: 60px;
+margin-left: 120px;
+
+  }
+  .list-order{
+    font-size: 21px;
+    list-style: none;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  #button08{
+    margin-left: 183px;
+margin-top: 67px;
+font-size: 17px;
+  }
+  .overlay8 {
+
+
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: #999;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 100;
+    }
+     .popup8 {
+    
+    
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    /*Half the value of width to center div*/
+    margin-top: -250px;
+    /*Half the value of height to center div*/
+    z-index: 200;
+    }
+    .overlay-cate {
+
+
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background: #999;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        z-index: 100;
+        }
+    .popup-cate{
+    
+    
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    /*Half the value of width to center div*/
+    margin-top: -250px;
+    /*Half the value of height to center div*/
+    z-index: 200;
+    }
+    
+   
+    .popupclose8 {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    
+    #popupconten8 {
+    padding: 10px;
+    }
+.fadeup {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform:
+        translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+
+  }
+  @media only screen and (width>=1600px){
+    body{
+        margin:0px 90px;
+        overflow-x: hidden;
+    }
+    .foot{
+        width:1009px;
+
+    }
+    .footer{
+        width:1200px;
+    }
+   .categories{
+    padding-right:10.25rem;
+   }
+  }
+  /* .about{
+   margin: 50px 0;
+   width: 1400px;
+   text-wrap: wrap;
+
+  } */
+
+ .links {
+    position: relative;
+    width: 150px;
+    left: 808px;
+    bottom: 20px;
+}
+@media only screen and (width<=1024px) {
+
+       
+     .list{
+        width: 720px;
+        margin: 30px 0px;
+       
+    }
+    #logo{
+        margin-left: 0;
+    }
+    #list a {
+ 
+        margin: 10px 0px;
+        padding:0 3px;  
+     
+    } 
+    .links{
+        position:relative;
+        left: 470px;
+        bottom: 20px;
+    
+    }
+    .foot{
+        width: 400px;
+    }
+    
+}
+@media only screen and (width<=768px){
+
+       
+    .list{
+        width: 501px;
+        margin: 30px 0px;
+       
+    }
+    #logo{
+        margin-left: 0;
+    }
+    #list a {
+ 
+        margin: 10px 0px;
+        padding:0 3px;  
+     
+    }
+    .links{
+        position:relative;
+        left: 310px;
+        bottom: 20px;
+}
+.foot{
+    width: 400px;
+}
+
+
+@media only screen and (width<=445px){
+  
+    .nav{
+        flex-direction: column;
+    }
+    .list{
+        width: 310px;
+        margin: 30px 0px;
+       
+    }
+    #logo{
+        margin-left: 0;
+    }
+    #list a {
+ 
+        margin: 10px 0px;
+        padding:0 3px;  
+       
+    }
+    .container{
+        margin-left: 45px;
+    }
+    .links{
+        position:relative;
+        left:86px;
+        top: 5px;
+}
+.foot{
+    
+  
+    position: relative;
+    width: 320px;
+    bottom: 0px;
+    left: 53px;
+  
+  
+}
+#footer-logo{
+    margin-left: 110px;
+}
+footer{
+    width:400px;
+}
+
+}
+}
+
+@media only screen and (width<=375px){
+  
+    .nav{
+        flex-direction: column;
+    }
+    .list{
+        width: 310px;
+        margin: 30px 0px;
+       
+    }
+    #logo{
+        margin-left: 0;
+    }
+    #list a {
+ 
+        margin: 10px 0px;
+        padding:0 3px;  
+       
+    }
+    .container{
+        margin-left: 21px;
+    }
+    .links{
+        position:relative;
+        left:86px;
+        top: 5px;
+}
+.foot{
+    
+  
+    position: relative;
+    bottom: 0px;
+    left: 53px;
+    width: 340px;
+  
+  
+}
+#footer-logo{
+    margin-left: 110px;
+}
+
+@media only screen and (width<=320px){
+  
+    .nav{
+        flex-direction: column;
+    }
+    .list{
+        width: 310px;
+        margin: 30px 0px;
+       
+    }
+    #logo{
+        margin-left: 0;
+    }
+    #list a {
+ 
+        margin: 10px 0px;
+        padding:0 3px;  
+       
+    }
+    .container{
+        margin-left: 0%;
+    }
+    .foot{
+    
+  
+        position: relative;
+        width: 600px;
+        bottom: 0px;
+        left: 53px;
+      
+      
+    }
+    #footer-logo{
+        margin-left: 110px;
+    }
+    }
+
+
+
+}
+
+
+
+
+
+
